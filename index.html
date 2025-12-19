@@ -1,98 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Umamaheshwar Chokkarapu</title>
-    <link rel="stylesheet" href="styles.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Data Science Portfolio</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- NAVIGATION -->
-    <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Your Name</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="theme-toggle" id="theme-toggle">
+        <i class="fas fa-moon"></i>
+      </div>
+    </nav>
+  </header>
 
-    <!-- HERO SECTION -->
-    <section id="hero" class="hero-section">
-        <h1>Hi, I’m <span>Umamaheshwar Chokkarapu</span></h1>
-        <p>Graduate Computer Science Student | Data Science Specialist</p>
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero-section">
+    <div class="hero-content">
+      <h1>Hi, I’m <span>Your Name</span></h1>
+      <p>Graduate Computer Science Student | Data Science Specialist</p>
+      <div class="hero-buttons">
         <a href="#projects" class="btn">View My Work</a>
-    </section>
+        <a href="resume.pdf" class="btn btn-outline" download>Download Resume</a>
+      </div>
+    </div>
+  </section>
 
-    <!-- ABOUT -->
-    <section id="about" class="about-section">
-        <h2>About Me</h2>
-        <p>Graduate Computer Science student specializing in Data Science, skilled in Python, SQL, data analysis, and automation. Passionate about using data to optimize business processes and eager to contribute to financial services with analytical rigor.</p>
-    </section>
+  <!-- ABOUT -->
+  <section id="about" class="about-section container">
+    <h2 class="section-title">About Me</h2>
+    <p>Graduate Computer Science student specializing in Data Science, skilled in Python, SQL, and data analysis. Passionate about using data to optimize business processes and eager to contribute to financial services with analytical rigor.</p>
+  </section>
 
-    <!-- SKILLS -->
-    <section id="skills" class="skills-section">
-        <h2>Technical Skills</h2>
-        <div class="skills-grid">
-            <div>Python</div>
-            <div>SQL</div>
-            <div>Machine Learning</div>
-            <div>Tableau & Power BI</div>
-            <div>AWS & GCP</div>
-            <div>Git & Docker</div>
-        </div>
-    </section>
+  <!-- SKILLS -->
+  <section id="skills" class="skills-section container">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">
+        <h4>Python</h4>
+        <div class="skill-bar"><div class="skill-level" data-level="90%"></div></div>
+      </div>
+      <div class="skill">
+        <h4>SQL / MySQL</h4>
+        <div class="skill-bar"><div class="skill-level" data-level="85%"></div></div>
+      </div>
+      <div class="skill">
+        <h4>Machine Learning</h4>
+        <div class="skill-bar"><div class="skill-level" data-level="88%"></div></div>
+      </div>
+      <div class="skill">
+        <h4>Tableau / Power BI</h4>
+        <div class="skill-bar"><div class="skill-level" data-level="80%"></div></div>
+      </div>
+      <div class="skill">
+        <h4>AWS / GCP</h4>
+        <div class="skill-bar"><div class="skill-level" data-level="75%"></div></div>
+      </div>
+      <div class="skill">
+        <h4>HTML / CSS / JS</h4>
+        <div class="skill-bar"><div class="skill-level" data-level="90%"></div></div>
+      </div>
+    </div>
+  </section>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="projects-section">
-        <h2>Projects</h2>
+  <!-- PROJECTS -->
+  <section id="projects" class="projects-section container">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Health Classification from Sleep Data</h3>
+        <p>Analyzed behavioral patterns with Python and Tableau dashboards; built a classification model for health profiling.</p>
+      </div>
+      <div class="project-card">
+        <h3>Asthma Severity Prediction</h3>
+        <p>Built ML pipeline with 90% accuracy and advanced feature engineering for improved model performance.</p>
+      </div>
+      <div class="project-card">
+        <h3>Used Car Price Prediction</h3>
+        <p>Developed regression and tree models to predict car prices with feature engineering and hyperparameter tuning.</p>
+      </div>
+    </div>
+  </section>
 
-        <div class="project-card">
-            <h3>Health Classification from Sleep Data</h3>
-            <p>Analyzed behavioral patterns with Python and Tableau dashboards; built a classification model for health profiling.</p>
-        </div>
+  <!-- EXPERIENCE & EDUCATION -->
+  <section id="experience" class="experience-section container">
+    <h2 class="section-title">Experience & Education</h2>
+    
+    <div class="experience-card">
+      <h3>Data Analyst Intern — Bluehawks EduAbroad</h3>
+      <p>Automated workflows with Python, built predictive dashboards, and improved student placement accuracy by 18%.</p>
+    </div>
 
-        <div class="project-card">
-            <h3>Asthma Severity Prediction</h3>
-            <p>Built an ML pipeline with 90% accuracy and engineered features for improved model performance.</p>
-        </div>
+    <div class="experience-card">
+      <h3>Summer Desk Assistant — Seattle University</h3>
+      <p>Streamlined operations for 600+ guests and coordinated cross-departmental scheduling during peak periods.</p>
+    </div>
 
-        <div class="project-card">
-            <h3>Used Car Price Prediction</h3>
-            <p>Developed regression and tree models to predict prices with feature engineering and tuning.</p>
-        </div>
-    </section>
+    <div class="experience-card">
+      <h3>Team Leader — National Service Scheme</h3>
+      <p>Led volunteer teams in community initiatives, boosting engagement by 30%.</p>
+    </div>
 
-    <!-- EXPERIENCE & EDUCATION -->
-    <section id="experience" class="experience-section">
-        <h2>Experience</h2>
+    <h3>Education</h3>
+    <p><strong>Seattle University</strong> — M.S. Computer Science (Data Science)</p>
+    <p><strong>Lovely Professional University</strong> — B.S. Computer Science (Data Science/AI‑ML)</p>
+  </section>
 
-        <div class="experience-card">
-            <h3>Data Analyst Intern — Bluehawks EduAbroad</h3>
-            <p>Automated data workflows with Python, built predictive dashboards, and improved placement accuracy by 18%.</p>
-        </div>
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section container">
+    <h2 class="section-title">Contact Me</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your LinkedIn</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+  </section>
 
-        <h3>Education</h3>
-        <p><strong>Seattle University</strong> — M.S. Computer Science (Data Science)</p>
-        <p><strong>Lovely Professional University</strong> — B.S. Computer Science (Data Science/AI‑ML)</p>
-    </section>
+  <footer>
+    <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+  </footer>
 
-    <!-- CONTACT -->
-    <section id="contact" class="contact-section">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your LinkedIn</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Umamaheshwar Chokkarapu. All Rights Reserved.</p>
-    </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
