@@ -4,8 +4,7 @@
 M.S. Computer Science (Data Science) @ Seattle University  
 Building scalable, production-grade machine learning and LLM systems.
 
-I specialize in designing end-to-end ML pipelines — from data engineering and feature design to model deployment and monitoring — with a strong focus on reproducibility, scalability, and responsible AI
-
+I design and build end to end machine learning systems that span data engineering, feature development, model training, deployment, and monitoring, with a strong emphasis on scalability, reproducibility, and responsible AI practices.
 
 
 ## 🛠 Tech Stack
