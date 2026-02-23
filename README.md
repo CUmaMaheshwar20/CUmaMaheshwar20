@@ -104,12 +104,11 @@ ML-based classification model for severity prediction.
 
 ## 🤝 Open to
 
-Data Scientist
 Machine Learning Engineer  
 Applied AI Engineer  
 GenAI Engineer  
 ML Systems / Platform roles  
-Data
+Data Scientist
 
 <!--
 
