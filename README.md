@@ -6,10 +6,12 @@ Building scalable, production-grade machine learning and LLM systems.
 
 I design and build end to end machine learning systems that span data engineering, feature development, model training, deployment, and monitoring, with a strong emphasis on scalability, reproducibility, and responsible AI practices.
 
+---
 
 ## 🛠 Tech Stack
 
-**Languages & Tools**
+### Languages & Tools
+
 Python | SQL | Java  
 
 ### Machine Learning
